@@ -6,6 +6,11 @@ import Vue from 'vue'
 // import { Message } from 'element-ui'
 import { Button, Form, FormItem, Input, Message, Container, Header, Aside, Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Cascader } from 'element-ui'
 
+// 引入timeline文件
+// import Timeline from './timeline/index'
+
+// import TimelineItem from './timeline-item/index'
+
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -31,6 +36,8 @@ Vue.use(Dialog)
 Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Cascader)
+    // Vue.use(Timeline)
+    // Vue.use(TimelineItem)
     // 弹框提示需要全局挂载,然后全体成员都可以通过this.$message进行引用
 Vue.prototype.$message = Message;
 Vue.prototype.$confirm = MessageBox.confirm;
